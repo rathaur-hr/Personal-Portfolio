@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Message Sent — Harshit Rathaur</title>
+  <meta name="robots" content="noindex" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --accent: #8b4fd1;
+      --accent-light: #c9a9fa;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #ffffff;
+      color: #1f1530;
+      font-family: 'Space Grotesk', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 50% at 50% 40%, rgba(139,79,209,0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .card {
+      background: rgba(139,79,209,0.04);
+      border: 1px solid rgba(139,79,209,0.15);
+      border-radius: 24px;
+      padding: 3rem 2.5rem;
+      max-width: 480px;
+      position: relative;
+    }
+    .icon {
+      font-size: 3.5rem;
+      margin-bottom: 1.25rem;
+    }
+    h1 {
+      font-family: 'Syne', sans-serif;
+      font-size: 2rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--accent), var(--accent-light));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 0.75rem;
+      letter-spacing: -1px;
+    }
+    p {
+      color: #6b6178;
+      line-height: 1.7;
+      margin-bottom: 2rem;
+    }
+    a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.75rem 1.75rem;
+      border-radius: 100px;
+      background: linear-gradient(135deg, var(--accent), #a566e8);
+      color: #fff;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(139,79,209,0.35);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">✅</div>
+    <h1>Message Sent!</h1>
+    <p>Thanks for reaching out. I'll get back to you as soon as possible — usually within 24 hours.</p>
+    <a href="/">← Back to Portfolio</a>
+  </div>
+</body>
+</html>

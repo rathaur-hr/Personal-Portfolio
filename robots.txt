@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://contactharshit.netlify.app/sitemap.xml
